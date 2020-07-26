@@ -56,35 +56,27 @@ function congruence(day, month, year, lang) {
 
                 case "ca":
                     return langs.catalan[d];
-                    break;
 
                 case "en":
                     return langs.english[d];
-                    break;
 
                 case "es":
                     return langs.spanish[d];
-                    break;
                 
                 case "fr":
                     return langs.french[d];
-                    break;
 
                 case "it":
                     return langs.italian[d];
-                    break;
 
                 case "pt":
                     return langs.portugese[d];
-                    break;
 
                 case "ro": 
                     return langs.romanian[d];
-                    break;
 
                 default:
-                    return langs.english[d];
-                    break;
+                    return d;
             }
         }
 
